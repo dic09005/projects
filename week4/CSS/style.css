@@ -1,0 +1,27 @@
+selector {
+}
+header,
+footer {
+  background-color: darkturquoise;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr;
+  justify-content: center;
+}
+body {
+  background-color: deepskyblue;
+  font-size: 16px;
+}
+
+a {
+  color: ;
+}
+header,
+main,
+footer {
+}
+/* Class Selectors **************************************/
+.page {
+  max-width: 960px;
+  margin: 1rem auto;
+}

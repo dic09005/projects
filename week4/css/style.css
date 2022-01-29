@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #66a5ad;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+}
+body {
+  color: black;
+  background-color: #c4dfe6;
+  display: grid;
+  font-size: 16px;
+  justify-content: center;
+}
+footer {
+  color: azure;
+  background-color: #07575b;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+h1 {
+  color: #920000;
+}
+
+h2 {
+  color: #855000;
+}
+
+a {
+  color: rgb(149, 255, 123);
+}
+
+.page {
+  max-width: 960px;
+  margin: 1rem auto;
+}

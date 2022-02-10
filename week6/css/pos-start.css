@@ -1,0 +1,232 @@
+/* WDD 130 Positioning Activity */
+
+.page {
+  max-width: 800px;
+  margin: auto;
+}
+/* Activity 1 Styles */
+.content1 {
+  /* Activity One Container */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  justify-items: center;
+}
+.red1 {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  grid-column: 1/3;
+}
+.green1 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+.yellow1 {
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+}
+.blue1 {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  grid-column: 1/3;
+}
+
+/* Activity 2 Styles */
+.content2 {
+  /* Activity Two Container */
+  height: 450px;
+  width: 450px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.red2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.green2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  top: 70px;
+  left: 70px;
+}
+.yellow2 {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+}
+.blue2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 170px;
+  left: 170px;
+}
+
+/* Activity 3 Styles */
+.content3 {
+  /* Activity Three Container */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+}
+.red3 {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  grid-column: 1/3;
+}
+.green3 {
+  width: 250px;
+  height: 200px;
+  background-color: green;
+  justify-self: left;
+}
+.yellow3 {
+  width: 250px;
+  height: 200px;
+  background-color: gold;
+  justify-self: end;
+}
+.blue3 {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  grid-column: 1/3;
+}
+
+/* Activity 4 Styles */
+.content4 {
+  /* Activity Four Container */
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+  justify-items: center;
+}
+.red4 {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  grid-column: 1/2;
+}
+.green4 {
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  grid-column: 1/2;
+}
+.yellow4 {
+  width: 100%;
+  height: 100%;
+  background-color: gold;
+  grid-column: 1/2;
+}
+.blue4 {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+
+/* Activity 5 Styles */
+.content5 {
+  /* Activity Five Container */
+  height: auto;
+}
+.red5 {
+  height: 100px;
+  background-color: red;
+}
+.green5 {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  float: left;
+  margin-right: 1rem;
+}
+.yellow5 {
+  padding: 1rem;
+  background-color: gold;
+  box-sizing: border-box;
+}
+.blue5 {
+  height: 100px;
+  background-color: blue;
+}
+
+/* Activity 6 Styles */
+.content6 {
+  /* Activity Six Container */
+  height: 300px;
+  width: 450px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.red6 {
+  width: 300px;
+  height: 100px;
+  background-color: red;
+  z-index: 2;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.green6 {
+  width: 150px;
+  height: 100px;
+  background-color: green;
+  z-index: 6;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.yellow6 {
+  width: 150px;
+  height: 200px;
+  background-color: gold;
+  z-index: 6;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.blue6 {
+  width: 300px;
+  height: 200px;
+  background-color: blue;
+  z-index: 4;
+  position: absolute;
+  top: 50px;
+  left: 75px;
+}
+
+/* Do not change this container class */
+.activity {
+  width: 600px;
+  margin: 1rem auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #777;
+  padding: 1rem;
+  clear: both;
+  overflow: auto;
+}
+
+.title {
+  background-color: #ddd;
+}

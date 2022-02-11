@@ -38,8 +38,7 @@
 /* Activity 2 Styles */
 .content2 {
   /* Activity Two Container */
-  height: 450px;
-  width: 450px;
+  height: 500px;
   position: relative;
   top: 20px;
   left: 20px;
@@ -147,7 +146,7 @@
 /* Activity 5 Styles */
 .content5 {
   /* Activity Five Container */
-  height: auto;
+  height: 400px;
 }
 .red5 {
   height: 100px;
@@ -173,47 +172,45 @@
 /* Activity 6 Styles */
 .content6 {
   /* Activity Six Container */
-  height: 300px;
-  width: 450px;
-  position: relative;
-  top: 0px;
-  left: 0px;
+  height: 500px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: 75px 75px 75px 75px 75px 75px;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px;
+  grid-gap: 0px;
 }
 .red6 {
   width: 300px;
   height: 100px;
   background-color: red;
+  grid-column: 1/2;
   z-index: 2;
-  position: absolute;
-  top: 0px;
-  left: 0px;
 }
 .green6 {
   width: 150px;
   height: 100px;
   background-color: green;
+  grid-column: 1/2;
+  grid-row: 5/6;
+  justify-self: start;
   z-index: 6;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
 }
 .yellow6 {
   width: 150px;
   height: 200px;
   background-color: gold;
+  grid-row: 3/4;
+  grid-column: 5/6;
+  justify-self: start;
   z-index: 6;
-  position: absolute;
-  right: 0px;
-  bottom: 0px;
 }
 .blue6 {
   width: 300px;
   height: 200px;
   background-color: blue;
+  grid-row: 2/3;
+  grid-column: 2/3;
   z-index: 4;
-  position: absolute;
-  top: 50px;
-  left: 75px;
 }
 
 /* Do not change this container class */

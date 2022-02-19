@@ -2,24 +2,100 @@
   margin: 0;
   padding: 0;
 }
+
 header {
   background-color: #66a5ad;
   align-items: center;
   display: grid;
-  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
   font-size: large;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 body {
   color: black;
   background-color: #c4dfe6;
-  display: grid;
   font-size: 16px;
-  justify-content: center;
-  align-content: center;
   font-size: 110%;
   font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
 }
+
+.image {
+  size-adjust: 100, 50;
+}
+
+.banner {
+  width: 100%;
+  position: relative;
+}
+
+.hero_banner_box {
+  display: grid;
+}
+
+.button {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background: radial-gradient(#a1a1f1, #c4dfe6);
+  border: 1px solid #000000;
+  padding: 2rem;
+  opacity: 0.7;
+  color: azure;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 200px;
+  padding: 10px;
+}
+
+.title1h2 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding: 10px;
+}
+
+.image1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.title2h2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding: 10px;
+}
+
+.image2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.title3h2 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  padding: 10px;
+}
+
+.p3 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+
+.p1,
+.p2,
+.p3 {
+  justify-content: center;
+}
+
 footer {
   color: azure;
   background-color: #07575b;
@@ -34,20 +110,6 @@ footer {
   padding: 1px;
 }
 
-h1 {
-  text-align: center;
-  color: #920000;
-  font-size: 800%;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h2 {
-  text-align: center;
-  color: #855000;
-  font-size: x-large;
-  font-family: sans-serif;
-}
-
 a {
   color: rgb(149, 255, 123);
 }
@@ -58,23 +120,7 @@ a {
   margin: 1rem 1rem 1rem 1rem;
   border: 3px solid #000000;
   padding: 1px;
-  align-content: center;
-}
-header {
-  color: rgb(240, 255, 255);
-  margin: 1rem 1rem 1rem 1rem;
-  border: 6px solid blanchedalmond;
-  padding: 1px;
-}
-.black {
-  line-height: 1.1;
-  border: 1.5px solid black;
-  align-content: center;
-}
-.box {
-  width: 26em;
-  display: inline-block;
-  vertical-align: top;
-  font-size: 16px;
+  align-items: center;
+  align-self: center;
   align-content: center;
 }

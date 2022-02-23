@@ -26,10 +26,6 @@ body {
   justify-self: center;
 }
 
-.image {
-  size-adjust: 100, 50;
-}
-
 .banner {
   width: 100%;
   position: relative;

@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -12,6 +13,16 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+body {
+  height: 100vh;
+  background: url("swan-1.jpg");
+  padding: 1rem;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 header {
   height: 125px;
   background-color: #cfd9e4;
@@ -21,6 +32,7 @@ header {
   padding: 15px;
   font-family: "Bebas Neue", cursive;
   grid-template-columns: 1fr 1fr;
+  opacity: 0.4;
 }
 
 ul {
@@ -68,4 +80,5 @@ main {
   align-content: center;
   padding: 15px;
   color: #d4d4d4;
+  opacity: 0.8;
 }

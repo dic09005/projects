@@ -12,12 +12,8 @@ header {
   grid-template-rows: 1fr 40px 40px;
   font-size: large;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  list-style-type: none;
-}
-
-.logo1 {
-  height: 100px;
-  width: 175px;
+  margin-top: 15px;
+  display: ;
 }
 
 body {
@@ -36,10 +32,18 @@ body {
 
 ul {
   list-style-type: none;
+  display: inline;
   overflow: hidden;
   padding: 0%;
   margin: 0%;
   margin-inline-start: 15px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(4rem, auto));
+  list-style: none;
+  text-decoration: none;
 }
 
 li {

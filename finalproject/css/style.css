@@ -57,8 +57,13 @@ li a {
 }
 
 img {
-  height: 10%;
-  width: 10%;
+  height: 75%;
+  width: 75%;
+}
+
+.logo {
+  height: 30%;
+  width: 30%;
 }
 h1 {
   font-size: 30pt;

@@ -9,14 +9,14 @@ body {
   margin: 1rem auto;
   margin: 1rem 1rem 1rem 1rem;
   border: 3px solid #2429338e;
-  padding: 1px;
+  padding: 5px;
   font-family: "Rubik", sans-serif;
 }
 
 body {
   height: 100vh;
   background: url("swan-1.jpg");
-  padding: 1rem;
+  padding: 5px;
   background-repeat: no-repeat;
   background-position: left top;
   background-attachment: fixed;
@@ -86,4 +86,9 @@ main {
   padding: 15px;
   color: #d4d4d4;
   opacity: 0.8;
+}
+
+.page {
+  max-width: 960px;
+  margin: 1rem auto;
 }

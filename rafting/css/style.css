@@ -12,6 +12,7 @@ header {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 15px;
   border: 3px solid #c3c5c98e;
+  margin-bottom: 25px;
 }
 
 .logo1 {
@@ -50,7 +51,7 @@ main {
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 220px 1fr 1fr 200px;
+  grid-template-rows: 250px 1fr 1fr 200px;
 }
 
 .banner {
@@ -63,6 +64,8 @@ main {
 .hero_banner_box {
   display: grid;
   box-shadow: 1rem 1rem 1rem #858888;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .button {

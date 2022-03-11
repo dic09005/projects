@@ -7,31 +7,32 @@ header {
   background-color: #858888;
   align-items: center;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
   font-size: large;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 15px;
+  border: 3px solid #c3c5c98e;
+}
+
+.logo1 {
+  grid-column: 1/2;
+  justify-self: center;
 }
 
 body {
-  color: rgb(179, 171, 171);
-  background-color: #000000;
+  color: rgb(83, 82, 82);
+  background-color: rgb(255, 255, 255);
   font-size: 16px;
   font-size: 110%;
   font-family: Arial, Helvetica, sans-serif;
-  align-items: center;
-  align-self: center;
-  align-content: center;
-  justify-content: center;
-  justify-items: center;
-  justify-self: center;
-  padding: 5px;
 }
 
-ul {
+nav {
   list-style-type: none;
   margin-inline-start: 15px;
-  padding: 5;
+  float: left;
+  align-items: center;
+  padding: 5px;
 }
 
 nav {
@@ -45,19 +46,29 @@ li {
   padding: 5px;
 }
 
+main {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 220px 1fr 1fr 200px;
+}
+
 .banner {
   width: 100%;
   position: relative;
+  grid-row: 1/2;
+  grid-column: 1/3;
 }
 
 .hero_banner_box {
   display: grid;
+  box-shadow: 1rem 1rem 1rem #858888;
 }
 
 .button {
   position: absolute;
   top: 25px;
-  left: 25px;
+  left: 85px;
   background: radial-gradient(#a1a1f1, #c4dfe6);
   border: 1px solid #000000;
   padding: 2rem;
@@ -65,38 +76,35 @@ li {
   color: azure;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 200px;
-  padding: 10px;
-}
-
 .title1h2 {
   grid-column: 1/2;
-  grid-row: 1/2;
+  grid-row: 2/3;
   padding: 10px;
 }
 
 .image1 {
   grid-column: 2/3;
-  grid-row: 1/2;
+  grid-row: 2/3;
+  margin: 20px;
+  box-shadow: 1rem 1rem 1rem #858888;
 }
 
 .title2h2 {
   grid-column: 2/3;
-  grid-row: 2/3;
+  grid-row: 3/4;
   padding: 10px;
 }
 
 .image2 {
   grid-column: 1/2;
-  grid-row: 2/3;
+  grid-row: 3/4;
+  margin: 20px;
+  box-shadow: 1rem 1rem 1rem #858888;
 }
 
 .title3h2 {
   grid-column: 1/3;
-  grid-row: 3/4;
+  grid-row: 4/5;
   padding: 10px;
 }
 
@@ -112,13 +120,14 @@ li {
 }
 
 h1 {
-  color: rgb(197, 255, 236);
+  color: rgb(0, 0, 0);
   justify-content: center;
   margin-left: 2rem;
+  grid-column: 3/4;
 }
 
 h2 {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 footer {
@@ -131,15 +140,27 @@ footer {
   font-size: large;
   color: rgb(240, 255, 255);
   margin: 1rem 1rem 1rem 1rem;
-  border: 2px solid blanchedalmond;
-  padding: 8px;
+  border: 3px solid #c3c5c98e;
+}
+
+.logo2 {
+  justify-self: center;
+}
+
+address {
+  justify-self: center;
+}
+
+.media {
+  justify-self: center;
 }
 
 a {
   color: rgb(56, 53, 218);
+  justify-content: center;
 }
 
-.page {
-  max-width: 960px;
+main {
+  max-width: 900px;
   margin: 1rem auto;
 }

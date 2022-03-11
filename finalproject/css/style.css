@@ -15,12 +15,12 @@ body {
 
 body {
   height: 100vh;
-  background: url("swan-1.jpg");
+  background: url("rabbit2.jpg");
   padding: 5px;
   background-repeat: no-repeat;
   background-position: left top;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: contain;
 }
 
 header {

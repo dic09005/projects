@@ -29,11 +29,14 @@ body {
 }
 
 nav {
-  list-style-type: none;
   margin-inline-start: 15px;
   float: left;
   align-items: center;
   padding: 5px;
+}
+
+ul {
+  list-style-type: none;
 }
 
 nav {

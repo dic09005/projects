@@ -21,7 +21,7 @@ header {
 }
 
 body {
-  color: rgb(83, 82, 82);
+  color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
   font-size: 16px;
   font-size: 110%;
@@ -70,7 +70,7 @@ main {
 
 .button {
   position: absolute;
-  top: 25px;
+  top: 45px;
   left: 85px;
   background: radial-gradient(#a1a1f1, #c4dfe6);
   border: 1px solid #000000;
@@ -166,4 +166,139 @@ a {
 main {
   max-width: 900px;
   margin: 1rem auto;
+  background-color: rgba(216, 216, 216, 0.5);
+}
+
+.text {
+  list-style-type: none;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+  background-color: rgba(216, 216, 216, 0.5);
+  border: 2px solid #858888;
+  color: #000000;
+  padding: 15px;
+}
+
+.pricing {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  list-style-type: none;
+  background-color: rgba(216, 216, 216, 0.5);
+  border: 2px solid #858888;
+  color: #000000;
+}
+
+.list2 {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.grid2 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 95px 50px 250px 1fr;
+  gap: 50px;
+  padding: 10px;
+  font-family: "Cinzel", serif;
+  font-weight: 400;
+}
+
+.banner1 {
+  grid-row: 4/5;
+  grid-column: 2/3;
+  box-shadow: 0 0 0.5rem rgb(229, 229, 243);
+}
+
+.textbox {
+  padding: 20px;
+}
+
+.titleb {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(216, 216, 216, 0.5);
+  border: 2px solid #858888;
+}
+
+.dates {
+  border: 2px solid #858888;
+  grid-column: 1/2;
+  grid-row: 1/5;
+  padding: 10px;
+  font-size: large;
+  height: 100%;
+  text-align: center;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: rgba(216, 216, 216, 0.5);
+  color: #000000;
+}
+
+.page,
+.page2,
+.page3 {
+  background: url("swanvly.jpg");
+  padding: 5px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.title {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(216, 216, 216);
+  box-shadow: 1rem 1rem 1rem #858888;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+.body3 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 120px 150px 1fr;
+  font-family: "Martel", serif;
+}
+
+.pic1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.pic2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.pic3 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.pic4 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+.text3 {
+  grid-column: 1/5;
+  grid-row: 3/4;
+  padding: 20px;
+  color: #000000;
 }

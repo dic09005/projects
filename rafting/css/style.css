@@ -52,6 +52,8 @@ main {
   align-items: center;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 250px 1fr 1fr 200px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
 }
 
 .banner {
@@ -131,6 +133,7 @@ h1 {
 
 h2 {
   color: rgb(0, 0, 0);
+  text-decoration: underline;
 }
 
 footer {
@@ -161,6 +164,10 @@ address {
 a {
   color: rgb(56, 53, 218);
   justify-content: center;
+}
+
+a:hover {
+  color: #ffffff;
 }
 
 main {

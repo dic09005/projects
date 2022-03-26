@@ -28,7 +28,7 @@ i {
   letter-spacing: 0;
 }
 
-.item {
+.card {
   width: 400px;
   background: #fff;
   position: relative;
@@ -59,6 +59,11 @@ img {
   justify-content: center;
   align-items: center;
   z-index: 10;
+}
+
+.heart {
+  width: 20px;
+  height: 20px;
 }
 
 .like:hover {

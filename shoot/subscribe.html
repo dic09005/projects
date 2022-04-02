@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mission Shoot Rogue Photography</title>
+    <title>Subscribe Shoot Rogue Photography</title>
     <meta
       name="Shoot Rogue Photography, Capturing Your Vision"
       content="Not Another Photography Site"
@@ -15,7 +15,7 @@
     />
   </head>
   <body>
-    <div class="page4">
+    <div class="page5">
       <header>
         <div class="img">
           <div class="logo">
@@ -33,30 +33,45 @@
             </li>
             <li><a href="about.html" title="About Us">About Us</a></li>
             <li>
-              <a class="current" href="mission.html" title="Our Mission"
+              <a href="mission.html" title="Our Mission"
                 >Our Mission</a
               >
               <li>
-                <a href="subscribe.html" title="Subscribe">Subscribe</a>
+                <a class="current" href="subscribe.html" title="Subscribe">Subscribe</a>
               </li>
             </li>
           </ul>
         </nav>
       </header>
       <main>
-        <section class="mission">
-          <h2>Our Mission</h2>
-          <p>
-            Do you believe that the right pictures help elevate the ambiance of
-            a home or business? Do you have time to sort through hundreds if not
-            thousands of pictures to find the right pictures for your home or
-            business? If you could hire a photographer to go take the pictures
-            that you wanted for a fare, price, would you be interested? My
-            website will show examples of what you could get for your home or
-            business. So many people sell pictures. How many people sell you the
-            pictures you want? Get what you want with my website. <br />
-          </p>
-        </section>
+          <h1>Please Subscribe to Our Monthly Newsletter</h1>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+              <li>
+                <label for="name">Name:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="user_name"
+                  placeholder="John Smith"
+                  required
+                />
+              </li>
+              <li>
+                <label for="mail">E-mail:</label>
+                <input
+                  type="email"
+                  id="mail"
+                  name="user_email"
+                  placeholder="user@email.org"
+                  required
+                />
+              </li>
+              <li class="button">
+                <button type="submit">Subscribe Now</button>
+              </li>
+            </ul>
+          </form>
       </main>
       <footer>
         <div class="media">
@@ -86,3 +101,12 @@
     </div>
   </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>My test page</title>
+
+  </head>
+

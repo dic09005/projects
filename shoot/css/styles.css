@@ -137,6 +137,10 @@ h1, h2 {
   font-size:4vw;
 }
 
+h2.title {
+  margin: 10px;
+}
+
 a {
   font-family: 'Shadows Into Light', cursive;
   font-size:3vw;
@@ -151,7 +155,6 @@ a:hover {
 div.slides {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 30px;
 }
 
 div.gallery {

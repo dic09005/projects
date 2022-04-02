@@ -9,7 +9,11 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
-.page1, .page2, .page3, .page4, .page5 {
+.page1,
+.page2,
+.page3,
+.page4,
+.page5 {
   padding: 1rem;
   display: grid;
   grid-template-rows: 150px 1fr 50px;
@@ -59,7 +63,11 @@ p {
   padding-left: 50px;
   padding-right: 50px;
   color: aliceblue;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.words {
+  max-width: 500px;
 }
 
 header {
@@ -72,7 +80,6 @@ header {
   grid-row: 1/2;
   background-color: rgb(0 0 0 / 30%);
   border-radius: 20px;
-  
 }
 
 nav {
@@ -128,6 +135,7 @@ footer {
   background-color: rgb(0 0 0 / 20%);
   border-radius: 20px;
   margin-top: 15px;
+  padding: 25px;
 }
 
 .page5 main {
@@ -139,15 +147,16 @@ footer {
 }
 
 section {
-display: grid;
-justify-items: center;
+  display: grid;
+  justify-items: center;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
   padding: 0.6rem;
-  font-family: 'Shadows Into Light', cursive;
-  text-shadow: .6px 1px rgb(241, 241, 241);
+  font-family: "Shadows Into Light", cursive;
+  text-shadow: 1px 1px 0 #ccc, 1px 1px 0 #ccc, 1px -1px 0 #ccc, -1px -1px 0 #ccc;
   font-size: xx-large;
 }
 
@@ -156,10 +165,10 @@ h2.title {
 }
 
 a {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
   font-size: x-large;
-  color:#4682B4;
-  text-shadow: 2px 1px black;
+  color: #000;
+  text-shadow: 1px 1px 0 #ccc, 1px 1px 0 #ccc, 1px -1px 0 #ccc, -1px -1px 0 #ccc;
 }
 
 a:hover {
@@ -173,12 +182,12 @@ div.slides {
 
 div.gallery {
   margin: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #777;
   width: 180px;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 1px solid #ccc;
 }
 
 div.gallery img {
@@ -186,13 +195,17 @@ div.gallery img {
   height: auto;
 }
 
+a img:hover {
+  border: 1px solid #ccc;
+}
+
 .nav .current {
-  color: rgb(218, 218, 218);
+  color: #0011ff;
   border-radius: 15px;
 }
 
 img.me {
-  border: 1px solid #4682B4;
+  border: 1px solid #4682b4;
   border-radius: 30%;
   box-shadow: -15px 7px 30px rgba(255, 255, 255, 0.3);
 }
@@ -203,9 +216,9 @@ section.about {
 
 p.quote {
   text-align: justify;
-  font-family: 'Shadows Into Light', cursive;
-  font-size:3vw;
-  color:#cacaca;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 3vw;
+  color: #cacaca;
   text-shadow: 2px 1px black;
   padding-top: 150px;
 }
@@ -235,15 +248,15 @@ label {
   width: 90px;
   text-align: center;
   font-size: large;
-  color:#4682B4;
+  color: #4682b4;
   text-shadow: 2px 1px black;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 input,
 textarea {
   font: 1em;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
   width: 300px;
   box-sizing: border-box;
@@ -270,9 +283,9 @@ textarea {
 
 button {
   margin-left: 0.5em;
-  background-color:#4682B4;
+  background-color: #4682b4;
   padding: 0.25rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: 1px 1px rgb(44, 44, 44);
 }
 

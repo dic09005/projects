@@ -18,14 +18,14 @@ body {
 }
 
 .page1 {
-  background: url("istockphoto1.jpg");
+  background: url("images/istockphoto1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
 }
 
 .page3 {
-  background: url("istockphoto9.jpg");
+  background: url("images/istockphoto9.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
@@ -37,7 +37,7 @@ body {
 }
 
 .page2 {
-  background: url("istockphoto19.jpg");
+  background: url("images/istockphoto19.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
@@ -45,7 +45,7 @@ body {
 }
 
 .page4 {
-  background: url("istockphoto00.jpg");
+  background: url("images/istockphoto00.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
@@ -134,7 +134,7 @@ h1, h2 {
   padding: 0.6rem;
   font-family: 'Shadows Into Light', cursive;
   text-shadow: .6px 1px rgb(241, 241, 241);
-  font-size:4vw;
+  font-size: xx-large;
 }
 
 h2.title {
@@ -143,7 +143,7 @@ h2.title {
 
 a {
   font-family: 'Shadows Into Light', cursive;
-  font-size:3vw;
+  font-size: x-large;
   color:#4682B4;
   text-shadow: 2px 1px black;
 }

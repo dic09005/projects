@@ -82,7 +82,6 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: flex;
-  background-attachment: fixed;
 }
 
 p.quote {
@@ -99,7 +98,6 @@ p.quote {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: flex;
-  background-attachment: fixed;
 }
 
 .page2 main {
@@ -114,7 +112,6 @@ p.quote {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: flex;
-  background-attachment: fixed;
 }
 
 .page3 main {
@@ -129,7 +126,6 @@ p.quote {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: flex;
-  background-attachment: fixed;
 }
 
 .page4 main {
@@ -145,7 +141,6 @@ p.quote {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: flex;
-  background-attachment: fixed;
 }
 
 .page5 main {
